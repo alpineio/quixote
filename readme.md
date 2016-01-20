@@ -9,3 +9,7 @@ docker-compose up
 1. vendor/bin/rocinante theme:regen "Super Awesome Theme" ./
 2. npm install
 3. gulp
+
+## Accessing WordPress
+
+http://192.168.99.100:3001/
