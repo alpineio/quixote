@@ -1,0 +1,17 @@
+{
+    "name": "alpineio/quixote",
+    "description": "AlpineIO Base Theme",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Morgan O'Neal",
+            "email": "moneal@alpine.io"
+        }
+    ],
+    "require": {
+        "alpineio/rocinante": "@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.1-stable"
+    }
+}
