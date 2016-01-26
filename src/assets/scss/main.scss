@@ -1,6 +1,5 @@
-@import "utils/variables";
+@import 'utils/variables';
 
-@import "vendors/wordpress-core",
-        "vendors/bootstrap";
+@import 'vendors/bootstrap';
 
-@import "shame";
+@import 'shame';

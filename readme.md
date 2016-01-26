@@ -12,4 +12,12 @@ docker-compose up
 
 ## Accessing WordPress
 
+1. Start docker `docker-compose up`
+
 http://192.168.99.100:3001/
+
+## phpMyAdmin
+
+http://192.168.99.100:3100/
+username: root
+password: secret
