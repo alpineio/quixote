@@ -1,6 +1,6 @@
 {
     "name": "alpineio/quixote",
-    "description": "AlpineIO Base Theme",
+    "description": "Alpine.IO Theme Builder",
     "minimum-stability": "dev",
     "authors": [
         {
@@ -8,6 +8,10 @@
             "email": "moneal@alpine.io"
         }
     ],
+    "support": {
+        "issues": "https://github.com/alpineio/quixote/issues"
+    },
+    "license": "MIT",
     "require": {
         "alpineio/rocinante": "@dev"
     },
