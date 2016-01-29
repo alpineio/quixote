@@ -21,6 +21,10 @@ To start docker run the below docker command
 
 * Start docker `docker-compose up`
 
+#### Local Docker
+
+ You may install a local Docker machine from something like: https://www.docker.com/products/docker-toolbox
+
 #### WordPress
 
 http://192.168.99.100:3001/
