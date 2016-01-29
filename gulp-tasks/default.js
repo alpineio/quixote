@@ -1,6 +1,5 @@
 var gulp = require('gulp');
 var source = require('vinyl-source-stream');
-var gutil = require('gulp-util');
 //var bower = require('bower');
 var sass = require('gulp-sass');
 //var sh = require('shelljs');
@@ -92,7 +91,6 @@ function buildScript(file, watch) {
     // listen for an update and run rebundle
     bundler.on('update', function() {
         rebundle();
-        gutil.log('Rebundle...');
     });
 
     // run it once the first time buildScript is called
