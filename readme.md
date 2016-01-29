@@ -8,10 +8,10 @@
 
 ## Setup new theme
 
-- composer create-project alpineio/quixote theme-name -s dev
-- vendor/bin/rocinante theme:regen "Super Awesome Theme" ./
-- npm install
-- gulp
+1. `composer create-project alpineio/quixote theme-name -s dev`
+2. `vendor/bin/rocinante theme:regen "Super Awesome Theme" ./`
+3. `npm install`
+4. `gulp`
 
 
 ### Docker Components
@@ -19,7 +19,7 @@ Quixote ships with a few docker containers to help preview and test your theme
 
 To start docker run the below docker command
 
-- Start docker `docker-compose up`
+* Start docker `docker-compose up`
 
 #### WordPress
 
