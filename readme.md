@@ -4,6 +4,7 @@
 [![Packagist Version](https://img.shields.io/packagist/v/alpineio/quixote.svg)](https://packagist.org/packages/alpineio/quixote)
 [![Packagist Downloads](https://img.shields.io/packagist/dt/alpineio/quixote.svg)](https://packagist.org/packages/alpineio/quixote)
 [![Packagist Pre Release](https://img.shields.io/packagist/vpre/alpineio/quixote.svg)](https://packagist.org/packages/alpineio/quixote)
+[![Packagist](https://img.shields.io/packagist/l/alpineio/quixote.svg)](https://packagist.org/packages/alpineio/quixote)
 
 
 ## Setup new theme
