@@ -1,7 +1,6 @@
 {
     "name": "alpineio/quixote",
     "description": "Alpine.IO Theme Builder",
-    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Morgan O'Neal",
@@ -13,9 +12,9 @@
     },
     "license": "MIT",
     "require": {
-        "alpineio/rocinante": "@dev"
+        "alpineio/rocinante": "^0.1"
     },
     "require-dev": {
-        "phpunit/phpunit": "^5.1-stable"
+        "phpunit/phpunit": "^5.1"
     }
 }
