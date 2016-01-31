@@ -8,7 +8,7 @@
 
 ## Setup new theme
 
-1. `composer create-project alpineio/quixote theme-name -s dev` creates a new copy of the Quixote composer project with base boilerplate.
+1. `composer create-project alpineio/quixote theme-name` creates a new copy of the Quixote composer project with base boilerplate.
 2. `cd theme-name`
 3. `vendor/bin/rocinante theme:regen "Super Awesome Theme" ./` renames Alpine.IO's base [Underscores](https://github.com/alpineio/underscores) theme in the current directory.
 
