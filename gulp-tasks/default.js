@@ -167,14 +167,17 @@ gulp.task('images',function(){
 
 gulp.task('watch', function() {
     gulp.watch(paths.sass, ['styles']);
+    gulp.watch(paths.php, ['php']);
+    gulp.watch(paths.images, ['images']);
+    gulp.watch(paths.fonts, ['fonts']);
 });
 
-gulp.task('statics',['images','styles','scripts'], function(cb) {
+gulp.task('assets',['images','styles','scripts', 'fonts'], function(cb) {
     // nothing really.
     cb();
 });
 
-gulp.task('default', ['images', 'styles', 'scripts', 'browser-sync'], function() {
+gulp.task('default', ['assets', 'browser-sync'], function() {
     gulp.watch(paths.sass, ['styles']); // gulp watch for sass changes
     gulp.watch(paths.php, ['php']); // gulp watch for php changes
     gulp.watch(paths.images, ['images']); // gulp watch for php changes
