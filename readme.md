@@ -6,6 +6,7 @@
 [![Packagist Pre Release](https://img.shields.io/packagist/vpre/alpineio/quixote.svg)](https://packagist.org/packages/alpineio/quixote)
 [![Packagist](https://img.shields.io/packagist/l/alpineio/quixote.svg)](https://packagist.org/packages/alpineio/quixote)
 
+Installing a new theme requires [Composer](https://getcomposer.org/doc/00-intro.md)
 
 ## Setup new theme
 
